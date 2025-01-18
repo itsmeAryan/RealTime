@@ -35,7 +35,7 @@ html,body{
                 if(navigator.geolocation){
                    navigator.geolocation.watchPosition(userPosition,handleError,{
                     enableHighAccuracy: true,
-                    timeout: 5000,
+                    timeout: 1000,
                     maximumAge: 0
                    }); 
                 }
